@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Formulario ingreso alumnos!!</title>
+		<link type="text/css" rel="stylesheet" href="estilo.css">
+		<script script="javascript">
+			function sumar(){
+			var num1 = document.getElementById("num1").value;
+			var num2 = document.getElementById("num2").value;
+			if(num1.trim().length > 5){
+			document.getElementById("sumatoria").submit();
+			}else{
+			alert("Debe ingresar un valor en usuario");
+			document.getElementById("num1").focus;
+			//document.getElementById("num1").focus();
+			}
+			//if ((parseInt(num1) >=0) && (parseInt(num2) >=0)){
+			//var suma = parseInt(num1)+parseInt(num2);
+			//alert("suma= "+suma);
+			
+			//}else{
+			//alert("Debe ingresar un numero mayor que 0");
+			//document.getElementById("num1").focus();
+			//}
+			
+			}
+		</script>
+		<!-- Bootstrap CSS -->
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		  <!-- Si utilizamos componentes de Bootstrap que requieran Javascript agregar estos tres archivos -->
+		  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</head>
+	<body>
+	<header>
+	  <h1>Página en HTML 5</h1>
+	  <h2>Página relacionada al inicio de clases para los estudiantes DUOC</h2>
+	</header>
+	<nav> 
+	  <ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="Inscripcion.html">Inscripcion</a></li>
+		<li><a href="#">Socios</a></li>
+		<li><a href="galeria.html">Galeria</a></li>
+		<li><a href="#">Preguntas</a></li>
+		<li><a href="#">Acerca de</a></li>
+	  </ul>
+	</nav>
+		<form action="suma.html" method="get" name="sumatoria" id="sumatoria">
+			<label for="nombre">usuario </label>
+				<input type="text" name="num1" id="num1" placeholder="Numero 1"  />
+				<label for="nombre">contraseña </label>
+				<input type="password" name="num2" id="num2" placeholder="Numero 2"  />
+			<input type="button" name="enviar" value="Sumar" onclick="sumar();"/>
+		</form>
+		<aside>
+		   <div id="anuncio1">
+			  <h1>Espacio reservado para publicidad</h1>
+			  <h2>Anúnciate aquí</h2>
+			  <p>Da a conocer tu empresa o negocio en Internet anunciándote en 
+			  este espacio.<p>
+			  <p>Interesados llamar al telefono +569_XXXX_XXXX</p>
+			</div>
+		</aside>
+		<footer>
+		   <h2>Para mayores dudas, contactar a: <a href="mailto:vict.toledo@profesor.duoc.cl">Víctor Toledo</a></h2>
+		   <br/>
+		</footer>
+	</body>
+</html>

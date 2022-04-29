@@ -1,0 +1,137 @@
+body {
+background-color: #f4d4d3; 
+}
+
+form label{
+    width: 150	px;
+    font-weight: bold;
+    display:inline-block;
+}
+form input[type="text"],
+form input[type="email"]{
+    width: 180px;
+    padding: 3px 10px;
+    border:1px solid #C5C6C4;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: 8px 0;
+    display: inline-block;
+}
+textarea{
+  width: 100%;
+  height: 100px;
+  border:1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0;
+  resize: none;
+  display: block;
+}
+form{
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    margin-left: 180px;
+	margin-top: 30px;
+    background-color: #A0D071;
+}
+
+header { background-color: #fffafa; }
+header h1 { text-align: center; color: navy; padding: 0.5em; font-size: 1.5em; }
+header h2 { text-align: center; color: #663366; padding: 0.5em; font-size: 1.2em; }
+
+/* estilo del menu */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #A0D071;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #B6FC70;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+/*.active {
+  background-color: #B6FC70;
+  display: block;
+  color: white;
+  text-decoration: none;
+}*/
+
+/*principal: section:*/
+section { width: 75%; background-color: #deeebc; float: left; }
+section h1 { text-align: center; padding: 0.5em; color: olive; font-size: 1.4em; }
+section h2 { text-align: center; padding: 0.5em; color: grey; font-size: 1.2em; }
+section h3 { text-align: left; padding: 0.3em 3em; color: #663366; font-size: 1em;  }
+
+/*artículos: article*/
+article { margin: 0.5em 3em; padding: 0.5em 2em; background-color: white; border: 3px double #A0D071; }
+article p { text-align: justify; }
+
+/*propaganda: aside*/
+aside { width: 25%; float: left; }
+#anuncio1 { margin: 20px; padding: 10px; border: 2px solid #A0D071; background-color: white; }
+#anuncio1 h1 { font-size: 1.1em; text-align: left; padding: 0.2em 0em; }
+#anuncio1 h2 { font-size: 1.5em; text-align: center; padding: 0.5em 0em; }
+#anuncio1 p { font-size: 0.9em; padding: 0.2em 1em; }
+
+
+/*estilo galeria */
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/*pie de página: footer*/
+footer { 
+clear: both; background-color: #A0D071; 
+}
+footer h1 { 
+text-align: center; font-size: 1.4em; color: navy; padding: 0.7em; 
+}
+footer h2 { 
+text-align: center; font-size: 1em; padding: 0.4em; 
+}
+footer a { 
+text-decoration: none; color: white; 
+}
+
+input.error {
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red;
+}
+
